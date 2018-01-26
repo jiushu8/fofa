@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import first from '@/components/first'
+import git from '@/components/git'
 
 Vue.use(Router)
 
@@ -13,9 +14,14 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/abc',
+      path: '/upload',
       name: 'first',
       component: first
+    },
+    {
+      path: '/git',
+      name: 'git',
+      component : git
     }
   ]
 })
