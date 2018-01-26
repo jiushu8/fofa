@@ -11,9 +11,8 @@
     <router-view/>
   </transition>
 </div>
-  
-</template>
 
+</template>
 
 <style>
 #app {
